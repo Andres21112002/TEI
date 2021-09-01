@@ -1,0 +1,58 @@
+/*Codigo que el profe no entiende*/
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset rems **/
+}
+    *, *:before, *:after {
+        box-sizing: inherit;
+}
+
+body{
+    font-size: 4rem;
+    margin: 1.5rem;
+    line-height: 0.8;
+    background-color: chartreuse;
+
+}
+
+h1{
+    font-size: 15rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+p{
+    padding: 10rem;
+    background-color: brown;
+    font-weight: bolder;
+    color: white;
+    width: 70%;
+}
+
+p:hover{
+    background-color: yellow;
+    transition: 1s;
+}
+
+.division{
+    background-color: darkgoldenrod;
+    display: flex;
+}
+
+.division:hover{
+    background-color: white;
+    display: block;
+    transition: 1s;
+    font-size: 2rem;
+}
+
+ul{
+    background-color: dodgerblue;
+    width: 30%;
+    padding-top: 10rem;
+}
+
+li{
+    list-style-type: none;
+}

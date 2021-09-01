@@ -1,0 +1,111 @@
+/*Codigo que el profe no entiende*/
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset rems **/
+}
+    *, *:before, *:after {
+        box-sizing: inherit;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+h1{
+    font-size: 3.8rem;
+    color: red;
+}
+
+h2{
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 3.0rem;
+}
+
+h4{
+    font-size: 2.6rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.site-header{
+    background-image: url("/fondito.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50rem;
+    min-height: 20rem;
+    padding: 1rem 1rem 3rem 1rem;
+}
+
+.content-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo{
+    max-width: 10rem;
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegation a{
+    font-size: 2rem;
+    margin-right: 0.7rem;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.navegation a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.contenedor {
+    max-width: 200rem;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.contenedor h2 {
+    color: #808080;
+    font-weight: 800;   
+    text-align: center; 
+}
+
+.equipo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.persona {
+    background-color: #00b5e2;
+    width: 46%;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.persona h3 {
+    text-transform: uppercase;
+}
+
+.persona a{
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    height: 5rem;
+}
